@@ -1,0 +1,616 @@
+/*Font Import*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+/*Common styles for all devices start*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+html, body {
+	height: 2000px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+.txt-center {text-align: center}
+.mobileShow {
+    display: none;
+}
+
+/*Common style for all devices end*/
+
+/*Common style for devices larger than 991px*/
+
+@media screen and (min-width:992px) {
+    .BR1 {
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .BL1 {
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .BT1 {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .BB1 {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .padTB10 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .padTB20 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .padTB30 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .padTB40 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .padTB50 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .padLR10 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .padLR20 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .padLR30 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .padLR40 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .padLR50 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .padT10 {
+        padding-top: 10px;
+    }
+    .padT20 {
+        padding-top: 20px;
+    }
+    .padT30 {
+        padding-top: 30px;
+    }
+    .padT40 {
+        padding-top: 40px;
+    }
+    .padT50 {
+        padding-top: 50px;
+    }
+    .padB10 {
+        padding-bottom: 10px;
+    }
+    .padB20 {
+        padding-bottom: 20px;
+    }
+    .padB30 {
+        padding-bottom: 30px;
+    }
+    .padB40 {
+        padding-bottom: 40px;
+    }
+    .padB50 {
+        padding-bottom: 50px;
+    }
+    .padR10 {
+        padding-right: 10px;
+    }
+    .padR20 {
+        padding-right: 20px;
+    }
+    .padR30 {
+        padding-right: 30px;
+    }
+    .padR40 {
+        padding-right: 40px;
+    }
+    .padR50 {
+        padding-right: 50px;
+    }
+    .padL10 {
+        padding-left: 10px;
+    }
+    .padL20 {
+        padding-left: 20px;
+    }
+    .padL30 {
+        padding-left: 30px;
+    }
+    .padL40 {
+        padding-left: 40px;
+    }
+    .padL50 {
+        padding-left: 50px;
+    }
+}
+/*Common style for devices larger than 991px end*/
+
+/*Common style for devices smaller than 991px start*/
+@media screen and (max-width:991px) {
+    .padTabT10 {
+        padding-top: 10px !important;
+    }
+    .padTabT20 {
+        padding-top: 20px !important;
+    }
+    .padTabT30 {
+        padding-top: 30px !important;
+    }
+    .padTabT40 {
+        padding-top: 40px !important;
+    }
+    .padTabT50 {
+        padding-top: 50px !important;
+    }
+    .padTabB10 {
+        padding-bottom: 10px !important;
+    }
+    .padTabB20 {
+        padding-bottom: 20px !important;
+    }
+    .padTabB30 {
+        padding-bottom: 30px !important;
+    }
+    .padTabB40 {
+        padding-bottom: 40px !important;
+    }
+    .padTabB50 {
+        padding-bottom: 50px !important;
+    }
+    .BBTab1 {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .padTabL0 {padding-left: 0 !important;}
+    .padTabR0 {padding-right: 0 !important;}
+    .cta-img img {height: auto;}
+
+}
+/*Common style for devices smaller than 991px end*/
+
+/*Common style for devices smaller than 767px start*/
+@media screen and (max-width:767px) {
+    .padMobT20 {
+        padding-top: 20px !important;
+    }   
+    .BBMob1 {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .mobileHide {
+        display: none !important;
+    }
+    .mobileShow {
+        display: block !important;
+    }
+}
+/*Common style for devices smaller than 767px end*/
+
+/*Common style for devices smaller than 480px start*/
+@media screen and (max-width:480px) {
+    .cta-description {display: none;}
+    .mob-spacer {
+        width: 8px;
+    }
+    .padTabT40 {
+        padding-top: 20px !important;
+    }
+    .padTabB40 {
+        padding-bottom: 20px !important;
+    }
+}
+/*Common style for devices smaller than 480px end*/
+
+/*Navigation + top disclaimer style start*/
+#searchbtn {
+	padding: 7px 0 0 10px;
+}
+.navbar-default {
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.navbar-brand:hover {color: #fff !important;}
+#searchbox {display: none;}
+.search-form {display: flex;}
+.navbar-fixed-top {
+  	top:36px;
+    transition: all 0.3s linear;
+    background: rgba(41, 42, 51, 1);
+    border-color: rgba(41, 42, 51, 1);
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    padding-right: 30px;
+}
+.affix {
+  top: 0px;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+  padding-top: 70px;
+}
+.top-disclaimer {
+	background-color: rgba(48, 51, 59, 1);
+	color:#fff;
+    height:36px;
+    position: relative;
+    z-index: 10000;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.top-disclaimer p {
+	margin: 0;
+    padding: 8px 0;
+    font-size: 16px;
+}
+.navbar .container-fluid {position: relative;}
+nav li.dropdown {position: initial;}
+.dropdown-menu li {
+    margin: 10px 0;
+}
+.dropdown-menu li a {
+    color: #fff;
+}
+.nav-left ul.dropdown-menu {
+    background: rgb(41, 42, 51);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 0;
+    width: 100%;
+}
+.nav-left ul.dropdown-menu .container {
+    display: flex;
+}
+.nav-left ul.dropdown-menu .dropmenucol {
+    flex: 1;
+    padding: 20px 40px;
+}
+.rt-dropdown-menu li, .rt-dropdown-menu li a {
+    color:#000;
+    text-align: center;
+}
+.ship-details {
+    display: flex;
+}
+.ship-details input, .currency-details input, .lang-details input {
+    border: none;
+    text-align: right;
+    padding: 2px 10px;
+}
+.ship-details i {
+    float: right;
+    padding: 4px;
+}
+.box-wrap {
+    position: relative;
+}
+.box-wrap li {
+    text-align: left;
+    padding: 0 20px;
+    line-height: 24px;
+}
+.box{
+    float:left;
+    background:#fff;
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    transition: all 0.5s ease;
+    top: 0;
+    height: 100%;
+}
+.box i {
+    display: block;
+    float: right;
+    transition: all 0.5s ease;
+}
+/* Add padding and border to inner content
+for better animation effect */
+.box-inner{
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+/*Navigation + top disclaimer style end*/
+
+/*Banner carousel style start*/
+.carousel , .carousel-inner {
+    height: 400px;
+    width: 100%;
+    float: left;
+}
+.carousel-caption {
+    right:0;
+    left: 0;
+    padding-bottom: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+.carousel-indicators {
+    width: auto;
+    right: 50px;
+    left: auto;
+}
+.carousel-indicators li {
+    border: 2px solid #fff;
+}
+/*Banner carousel style end*/
+
+/*Product section + CTA style start*/
+.cta-wrapper {
+	position: relative;
+}
+.cta-caption {
+    position: absolute;
+    right:0;
+    left: 0;
+    padding-bottom: 30px;
+    width: 100%;
+    bottom: 5%;
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+}
+.long-ad .cta-caption {
+    width: auto;
+    left: auto;
+    text-align: center;
+}
+.cta-caption.bottom {
+    bottom: 5%;
+}
+.cta-caption h3, .carousel-caption h3 {margin: 0;}
+.cta-caption.top {
+    top:5%;
+    bottom:auto;
+}
+.cta-btn {
+    border-radius: 3px;
+    background: #fff;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 30px;
+    transition: all 0.3s ease;
+}
+.black-cta-btn {
+    background: #000;
+    color: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+.cta-caption .black-cta-btn:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+    box-shadow: none;
+}
+.cta-caption .cta-btn.white:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+}
+.cta-description {
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+}
+.cta-img img {
+    width: 100%;
+}
+.prod-container {
+    padding: 0 2.5em;
+}
+.prod-container .col-md-6 {
+    padding: 0;
+}
+
+.prod-container.parallax {
+    background: url('../images/p1.jpg') no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width:100%;
+    height: 500px;
+}
+.full-width-ad {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+/*Product section + CTA style end*/
+
+.CCLogo {
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #777;
+}
+
+/*Footer style start*/
+
+footer{
+     background-color: #33383c;
+     padding:30px 0px;
+     float: left;
+     width: 100%;
+}
+.footer-wrap {
+    padding: 0 20px;
+}
+.footer-subscribe {
+    display: flex;
+}	       
+.footer-subscribe form input {
+    border: none;
+    background: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 50px;
+    width: 250px;
+    margin-right: 20px;
+    padding: 10px 10px 0 10px;
+    transition: all 0.3s ease;
+}
+.footer-subscribe form input::placeholder {
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer-subscribe form input:focus {
+    padding: 0 10px;
+}
+.footer-subscribe button {
+    margin: 0;
+    border: 3px solid transparent;
+    padding: 7px 30px;  
+}
+.footer-subscribe button:hover {
+    border: 3px solid #fff;
+    background: none;
+    color: #fff;
+}
+.footer-ad p {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.logo{
+    color:#FFF;
+    font-weight:700;
+    font-size:30px;
+}
+
+.address span , .menu span{
+   color: #FFF; 
+   font-weight: bold; 
+   border-bottom: 1px solid #c7c7c7; 
+   padding:10px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 1.5px;
+}
+ 
+.address li a , .menu li a{
+    color:#FFF;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.address li, .menu li{
+    margin:10px 0px;
+    list-style: none;
+}
+
+.address li a:hover , .menu li a:hover{
+    color: #da3e44;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.address .fa{
+    color: #da3e44;
+    margin-right: 10px;
+    font-size:18px;
+}
+
+.footer-social .fa {
+    padding: 20px 20px 20px 0;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color:#fff;
+}
+
+/*Footer style end*/
+
+
+/*Style for devices below 1200px*/
+@media screen and (max-width: 1200px) {
+    .footer-subscribe {
+        display: grid;
+    }
+    .footer-subscribe input {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+}
+
+/*Style for devices below 991px*/
+@media screen and (max-width: 991px) {
+    .footer-wrap ul {
+        padding-left: 0;
+    }
+}
+
+/*Style for devices below 768px*/
+@media screen and (max-width: 768px) {
+    .nav-left ul.dropdown-menu .container {
+        display: grid;
+    }
+    .carousel , .carousel-inner {
+        height: auto;
+    }
+    .footer-subscribe, .footer-ad {
+        padding: 0 10px;
+    }
+    .nav-left ul.dropdown-menu .dropmenucol {
+        padding: 0;
+    }
+    .nav-left {margin-top: 0px;}
+}
+
+/*Style for devices below 480px*/
+@media screen and (max-width: 480px) {
+    .cta-caption {
+        position: absolute;        
+        bottom: 0;
+        display: flex;
+        padding: 8px;
+        width: 100% !important;
+    }
+    .cta-caption .cta-btn, .cta-caption .black-cta-btn {
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        margin: 0;
+        flex: 1;
+        padding: 8px 20px;
+        transition: all 0.3s ease;
+        box-shadow: none;
+    }
+    .cta-caption .cta-btn:hover, .cta-caption .black-cta-btn:hover {
+        background: #000;
+    }
+    .footer-wrap {
+        padding: 0 20px;
+    }
+    .footer-subscribe {
+        display: grid;
+    }
+}
